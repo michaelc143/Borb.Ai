@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.385555e6.css",
-    "main.js": "/static/js/main.d6f39c11.js",
-    "index.html": "/index.html",
-    "main.385555e6.css.map": "/static/css/main.385555e6.css.map",
-    "main.d6f39c11.js.map": "/static/js/main.d6f39c11.js.map"
+    "main.css": "/Borb.Ai/static/css/main.385555e6.css",
+    "main.js": "/Borb.Ai/static/js/main.d6f39c11.js",
+    "index.html": "/Borb.Ai/index.html",
+    "main.385555e6.css.map": "/Borb.Ai/static/css/main.385555e6.css.map",
+    "main.d6f39c11.js.map": "/Borb.Ai/static/js/main.d6f39c11.js.map"
   },
   "entrypoints": [
     "static/css/main.385555e6.css",
