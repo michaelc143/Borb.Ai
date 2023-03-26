@@ -3,11 +3,9 @@ import { Configuration, OpenAIApi } from 'openai';
 import './ChatBot.css';
 
 function ChatBot() {
-  const apiKey = process.env.REACT_APP_API_KEY;
-  const secretKey = process.env.REACT_APP_SECRET_KEY;
   const configuration = new Configuration({
-      organization: secretKey,
-      apiKey: apiKey,
+      organization: process.env.REACT_APP_SECRET_KEY,
+      apiKey: process.env.REACT_APP_API_KEY,
   });
   const openai = new OpenAIApi(configuration);
   const [input, setInput] = useState('');
