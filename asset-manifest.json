@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Borb.Ai/static/css/main.385555e6.css",
-    "main.js": "/Borb.Ai/static/js/main.3be8b943.js",
+    "main.js": "/Borb.Ai/static/js/main.620d870d.js",
     "index.html": "/Borb.Ai/index.html",
     "main.385555e6.css.map": "/Borb.Ai/static/css/main.385555e6.css.map",
-    "main.3be8b943.js.map": "/Borb.Ai/static/js/main.3be8b943.js.map"
+    "main.620d870d.js.map": "/Borb.Ai/static/js/main.620d870d.js.map"
   },
   "entrypoints": [
     "static/css/main.385555e6.css",
-    "static/js/main.3be8b943.js"
+    "static/js/main.620d870d.js"
   ]
 }
