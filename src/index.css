@@ -1,0 +1,7 @@
+html {
+    background-color: #000000;
+  background-image: radial-gradient(white 10%, rgba(255,255,255,0) 50%), url('https://wallpaperaccess.com/full/1745055.jpg');
+  background-size: 100% 100%, cover;
+  background-position: center, center;
+  background-attachment: fixed;   
+}

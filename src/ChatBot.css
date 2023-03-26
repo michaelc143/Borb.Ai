@@ -1,0 +1,118 @@
+* {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.prev-img-1,
+.prev-img-2,
+.prev-img-3,
+.prev-img-4,
+.prev-img-5,
+.prev-img-6 {
+    height: 35rem;
+    width: 35rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.chat-input-box {
+    width: 35rem;
+    height: 2rem;
+    color: black;
+}
+
+.response-field {
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.submit-btn {
+    background-color: #FFFDD0;
+    color: #181818;
+}
+
+.logo {
+    align-self: center;
+}
+
+.logo-container-right img {
+    position:absolute;
+    top: 0rem;
+    right: -3rem;
+    /* set width and height of the image */
+}
+
+.logo-container-left img {
+    position:absolute;
+    top: 0rem;
+    left: -3rem;
+    /* set width and height of the image */
+}
+
+.toggle-logo {
+    font-size: larger;
+    background-color: #666;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.toggle input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #FF5733;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #FF5733;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Optional: Style the toggle label */
+.toggle-label {
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
