@@ -27,6 +27,7 @@ function ChatBot() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    console.log(apiKey);
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: input,
