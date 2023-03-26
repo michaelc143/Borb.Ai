@@ -24,15 +24,6 @@ function ChatBot() {
     setResponse(response.data.data[0].url);
   };
 
-  function formatResponse(response) {
-    // Split the response into sentences
-    const sentences = response.data.choices[0].text;
-  
-    // Replace all periods followed by a space with a newline character
-    const formattedText = sentences.replace(/\. /g, ".\n");
-
-    return formattedText;
-  }
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -42,7 +33,7 @@ function ChatBot() {
       max_tokens: 500,
       temperature: 0,
     }); //response.data.choices[0].text
-    setResponse(formatResponse(response));
+    setResponse(response.data.choices[0].text);
   };
 
   const submissionType = useImageBtn ? handleImage : handleSubmit;
